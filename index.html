@@ -1,0 +1,32 @@
+<!DOCTYPE html> <!-- identifica um documento html 5 --> 
+<html lang="pt-br"> <!-- elemento raiz -->
+    <head> <!-- cabeça da página -->
+        <meta charset="UTF-8"> <!-- sistema de codificação português-->
+        <!-- página terá a largura do dispositivo -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- título da página -->
+        <title>Profile Card </title>
+        <style>
+            body {
+                font-family: Arial, sans-serif; /* fonte */
+                display: flex; /* usa o FlexBox para exibir o conteúdo */
+                justify-content: center; /* centraliza na horizontal */
+                height: 100vh; /* altura da página é todo o conteúdo dela */
+                align-items: center; /* centraliza na vertical */
+                background-color: cyan;
+            }
+            .container {
+                background-color: white;
+                padding: 20px; /* espaçamento interno */
+            }
+        </style>
+    </head>
+    <body> <!-- corpo da página -->
+        <div class="container"> <!-- divisão lógica de conteúdo -->
+            <img src="https://placehold.co/150"/>     
+            <h2> Daniel Pires </h2>
+            <p> Engenharia de Software </p>
+            <button> Seguir perfil </button>
+        </div>
+    </body>
+</html>
