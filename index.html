@@ -6,24 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- título da página -->
         <title>Profile Card </title>
-        <style>
-            body {
-                font-family: Arial, sans-serif; /* fonte */
-                display: flex; /* usa o FlexBox para exibir o conteúdo */
-                justify-content: center; /* centraliza na horizontal */
-                height: 100vh; /* altura da página é todo o conteúdo dela */
-                align-items: center; /* centraliza na vertical */
-                background-color: cyan;
-            }
-            .container {
-                background-color: white;
-                padding: 20px; /* espaçamento interno */
-            }
-        </style>
+        <!-- fazendo o html ler o css-->
+        <!-- rel informa tipo da relação, folha de estilo -->
+        <!-- href informa o local do CSS -->
+        <link rel="stylesheet" href="css/styles.css"/>
     </head>
     <body> <!-- corpo da página -->
         <div class="container"> <!-- divisão lógica de conteúdo -->
-            <img src="https://placehold.co/150"/>     
+            <img class="imagem" src="https://placehold.co/150"/>     
             <h2> Daniel Pires </h2>
             <p> Engenharia de Software </p>
             <button> Seguir perfil </button>
