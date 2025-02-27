@@ -5,20 +5,16 @@
         <!-- página terá a largura do dispositivo -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- título da página -->
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/scripts.js"></script>
         <title>Profile Card </title>
-        <!-- fazendo o html ler o css-->
-        <!-- rel informa tipo da relação, folha de estilo -->
-        <!-- href informa o local do CSS -->
-        <link rel="stylesheet" href="css/styles.css"/>
-        <!-- permitir que o html leia o arquivo js -->
-        <script src="js/scripts.js"> </script>
     </head>
     <body> <!-- corpo da página -->
         <div class="container"> <!-- divisão lógica de conteúdo -->
-            <img class="imagem" src="https://placehold.co/150"/>     
-            <h2> Daniel Pires </h2>
+            <img src="yago.jpg" id="imagem"/>     
+            <h2> Yago Domiciano </h2>
             <p> Engenharia de Software </p>
-            <button onclick="mensagem()"> Seguir perfil </button>
+            <button id="botao" onclick="mensagem()"> Seguir perfil </button>
         </div>
     </body>
 </html>
