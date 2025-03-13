@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0; /* Externo*/
+    padding: 0; /* interno*/
+    background-color: #f4f4f4;
+    text-align: center;
+}
+header{
+    background-color: #ffb401;
+    color: #fff;
+    padding: 15px 8px;
+    text-align: center;
+}
+
+nav{
+    background-color: #f4f3ee;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#links-menu{
+    display: flex;
+    gap: 20px; /*buraco entre itens*/
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 10px;
+    font-weight: bolder;
+    background: #0060f5;
+    border-radius: 5px;
+    height: 10%;
+}
+
+#trote-img{
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.container{
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+}
