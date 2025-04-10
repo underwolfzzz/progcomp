@@ -54,3 +54,49 @@ nav a{
 h2{
     text-align: center;
 }
+
+ol li{
+    padding-bottom: 20px;
+}
+
+table tr td{
+    padding: 20px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.laranja{
+    background-color: orange;
+}
+
+.preto{
+    background-color: #000;
+    color: #fff;
+}
+
+.roxo{
+    background-color: purple;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelha{
+    background-color: red;
+}
+
+thead{
+    background-color: navy;
+    color: #fff;
+}
+
+th{
+    text-align: center;
+}
+
+.campos{
+    margin-bottom: 10px;
+}
