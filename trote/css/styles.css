@@ -98,7 +98,60 @@ th{
 }
 
 .campos{
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.campos label {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #555;
+}
+
+.campos input,
+.campos select {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.campos input:focus,
+.campos select:focus {
+    border-color: #ffb401;
+    outline: none;
+}
+
+
+.campos button {
+    background-color: #ffb401;
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.campos button:hover {
+    background-color: #ffb401;
+}
+
+#soma {
+    margin-top: 1rem;
+    display: block;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.campos table {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #555;
 }
 
 table{
@@ -117,4 +170,15 @@ table{
 
 .inf h3{
     border-bottom: 1px solid #000 ;
+}
+
+.importante{
+    background-color: #edefd5;
+    font-weight: bolder;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border: 1px solid #000; /* Adicionei esta linha */
 }

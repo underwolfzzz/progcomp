@@ -5,6 +5,7 @@ function calcular(){
     leite = Number(document.getElementById("leite").value)
     kit = Number(document.getElementById("kit").value)
     suplemento = Number(document.getElementById("suplemento").value)
+    sangue = Number(document.getElementById("sangue").value)
     soma = mascote + homenagem + (2 * leite) 
     
     equipe = document.getElementById("equipe").value
